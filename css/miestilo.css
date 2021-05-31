@@ -1,0 +1,682 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; }
+  
+  img {
+    width: 100%; 
+  }
+  
+  .container {
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px; }
+  
+  /***********************************UNIVERSAL STYLES***********************************/
+  body {
+    font-family: "Roboto", sans-serif;
+    color: #454545; }
+  
+  
+  h2 {
+    margin-bottom: 1em; }
+  
+  h3 {
+    margin-top: 1em;
+    margin-bottom: 0.5em; }
+  
+  p {
+    font-size: 1.06em;
+    line-height: 1.6;
+    color: #220606; }
+  
+  ul {
+    list-style: none; }
+  
+  li {
+    display: inline-block; }
+  
+  a {
+    text-decoration: none; }
+  
+  /***********************************HEADER STYLES***********************************/
+  #mainHeader {
+    position: relative;
+    max-height: fit-content;
+    padding: 1em 1em 0 0;
+    z-index: 900;
+    background: #fff;
+    border-bottom: 1px #E52E2D solid;
+    overflow: hidden; }
+  
+  .logo {
+    float: left;
+    margin: -0.3em 0 0.1em 0.5em;
+    line-height: 1;
+    font-size: 24pt;
+    font-weight: bold;
+    color: #1c246c;
+    font-family: "Dancing Script", cursive; }
+
+  #mainHeader ul {
+    float: right;
+    overflow: hidden;
+    list-style: none;
+    text-align: right;}
+  #mainHeader ul li {
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 1.5; }
+  #mainHeader ul a {
+    color: #454545;
+    text-transform: uppercase;
+    font-size: 14px; }
+
+  #mainHeader ul li a:hover {
+    color: #740202; }
+
+    .li a:hover{
+      transform: scale(1.2, 1.2);
+    }
+
+
+  /***********************************HERO STYLES***********************************/
+  #hero {
+    background: url(../imagenes/fondo.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+     }
+
+  .heroContent { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+    .heroContent h1 {
+      font-size: 50px;
+      color: rgb(0 255 78);
+      margin-top: 30px;
+      margin-bottom: 10px; 
+      text-align: center;}
+    .heroContent h2 {
+      font-size: 30px;
+      color: rgb(0 255 78);
+      text-align: center;
+   }
+    .heroContent .download {
+      text-align: center;
+      width: 10em;
+      position: relative;
+      color: #740202;
+      background: #0004ff33;
+      border: 1px #a2c7e3 solid;
+      border-radius: 1000px;
+      padding: 10px;
+      -webkit-transition: border-color 0.3s ease;
+      -o-transition: border-color 0.3s ease;
+      transition: border-color 0.3s ease;
+      cursor: pointer; }
+      .heroContent .download a {
+        color: white;
+        font-size: 16px; }
+
+      .heroContent .download a:hover{
+        color: #020315;
+      }
+      .heroContent .download:hover {
+        border-color: rgb(0 255 78);
+        background-color: #9e9e9ec5;
+        }
+  
+  .heroContent img {
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px rgb(0 255 78) solid; }
+  /***********************************ABOUT STYLES***********************************/
+
+  #about{
+    display: flex;
+    margin-bottom: 1em;
+  }
+
+  .aboutText h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #1c246c;
+    font-family: "Dancing Script", cursive;
+  }
+
+  .aboutText{
+    width: 100%;
+    margin: 5em 5em 0 5em;
+  }
+
+  .aboutResume{
+    width: 100%;
+    float:right;
+    position:relative;
+    margin: 5em 5em 0 0 ;
+  }
+
+  .aboutResume h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #1c246c;
+    font-family: "Dancing Script", cursive;
+  }
+
+  .aboutSocial{
+    margin-top: 1em;
+  }
+
+
+  .aboutSocial li:hover {
+    transform: scale(1.2, 1.2);
+    transition: 2seg;
+  }
+
+
+  .skillProgressContainer {
+    margin-bottom: 15px;
+    padding-left: 16px;
+    color: #454545; }
+
+  .edu h2{
+    margin: 1em 0 0 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #1c246c;
+    font-family: "Dancing Script", cursive;
+  }
+
+  .educacion {
+    display: flex;
+  }
+
+  .educacionBlock {
+    margin-bottom: 15px;
+    padding-left: 16px;
+    width: 50%; }
+  
+  .skillBar {
+    position: relative;
+    width: 100%;
+    height: 5px;
+    margin-top: 5px;
+    background: #a3a3a3; }
+  
+  .barPercent {
+    position: absolute;
+    top: 0;
+    left: 0; }
+  
+  .inner-percent {
+    height: inherit;
+    width: 0;
+    background: #740202;
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear; }
+  
+  .development {
+    background: #9e0000;
+    width: 63%;
+    height: 5px;
+  }
+  
+  .frontend {
+    background: #9e0000;
+    height: 5px;
+    width: 86%; }
+  
+  .backend {
+    background: #9e0000;
+    height: 5px;
+    width: 10%; }
+
+  /***********************************SERVICES STYLES***********************************/
+
+  #servicios {
+    position: relative;
+    background: #f8f9fa;
+    padding: 0 10em 4em 10em;
+  }
+
+  .servicios {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #1c246c;
+    font-family: "Dancing Script", cursive;
+  }
+
+  .servicios1 p{
+    padding: 0 1em 0 1em;
+  }
+
+  
+  .servicios1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 13em);
+    text-align: center;
+    padding: 2em 0 0 0;
+    font-weight: bold;
+    color: #1c246c;
+    font-family: "Dancing Script";
+  }
+
+  .service-block {
+    border-right: 0.1em #740202 solid;
+    border-bottom: 0.1em #740202 solid;
+  }
+
+  .service-block1 {
+    border-bottom: 0.1em #740202 solid;
+  }
+
+  .service-block2 {
+    border-left: 0.1em #740202 solid;
+    border-bottom: 0.1em #740202 solid;
+  }
+
+  .service-block3 {
+    border-right: 0.1em #740202 solid;
+    padding-top: 2em;
+  }
+
+  .service-block4 {
+    padding-top: 2em;
+  }
+
+  .service-block5 {
+    border-left: 0.1em #740202 solid;
+    padding-top: 2em;
+  }
+  
+
+  /***********************************PORTFOLIO STYLES***********************************/
+ 
+    .portfolio{
+      position: relative;
+      padding-bottom: 1em;
+    }
+
+  .portfolio h2{
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #1c246c;
+    font-family: "Dancing Script", cursive;
+  }
+
+  .items {
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+  }
+  .items img {
+    width: 22em;
+    height: 14em;
+  }
+
+  .items h3{
+    text-align: center;
+  }
+
+  /***********************************CONTACT STYLES***********************************/
+  .contacto {
+    background: #f8f9fa;
+  padding-top: 1em; }
+
+  .contacto h2 {
+    text-align: center;
+    float: top;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #1c246c;
+    font-family: "Dancing Script", cursive;
+  }
+  
+  .datos {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    padding-left: 2em;
+  }
+
+  .contactBlock {
+    display: flex;
+    justify-content: center;
+  }  
+
+  .contactInfo{
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    width: 40%;
+    margin: 0 4em 2em 2em;
+    padding: 1em 2em 0 4em;
+    justify-content: space-around;
+  }
+
+  .contactText {
+    display: flex;
+    float: left; }
+    .contact-text p:first-child {
+      text-align: left;
+      color: #454545;
+      font-weight: bold; }
+
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    padding-right: 6em;
+    margin: 2em 4em 2em 2em;
+  }
+
+  input[type=text] {
+    display: inline-block;
+    width: 100%;
+    padding: 1em;
+    margin: 0.5em 0 0.5em 0;
+    height: 45px;
+    border-radius: 1em;
+    font-size: 1.2em;
+    background: #f8f9fa;
+    border: 1px #a3a3a3 solid;
+    color: #a3a3a3; }
+
+  textarea {
+    display: inline-block;
+    width: 100%;
+    border-radius: 1em;
+    padding: 5px;
+    margin-top: 0.5em;
+    font-size: 1.2em;
+    background: #f8f9fa;
+    border: 1px #a3a3a3 solid;
+    color: #a3a3a3; }
+  
+  #contactSubmit {
+    width: 6em;
+    position: relative;
+    border-radius: 1em;
+    margin-top: 0.4em;
+    padding: 10px;
+    background: none;
+    border: 1px #a3a3a3 solid;
+    cursor: pointer;
+    font-size: 1.2em;
+    float: right; }
+
+  #contactSubmit:hover {
+    transform: scaleX(1.04);
+    transition: 2seg;
+  }
+  
+  /***********************************FOOTER STYLES***********************************/
+  footer {
+    padding: 12px 0 12px 0;
+    text-align: center;
+    border-top: 0.1em #740202 solid;
+  }
+  
+  footer p{
+    color: #740202;
+  }
+
+  
+ /* * * * * * * * * * * MEDIA QUERIES * * * * * * * * * * * * */
+
+/* IPAD */
+
+@media (min-width: 1px) and (max-width: 991.98px) {
+  
+  /*******************HEADER
+  SECTION*******************/
+  #mainHeader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  #mainHeader ul{
+    text-align: center;
+  }
+
+  /*******************ABOUT
+  SECTION*******************/
+  #about{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .aboutText {
+    padding: 1em 2em 1em 2em;
+    margin: 0;
+  }
+
+  .aboutResume {
+    margin: 0 2em 1em 2em;
+  }
+
+  /*******************SERVICES
+  SECTION*******************/
+  
+  #servicios {
+    margin: 0;
+    padding: 0;
+  }
+
+  .servicios {
+    padding-top: 1em;
+  }
+  
+  .servicios1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+  }
+  
+  .servicios1 p {
+    margin: 0 2em;
+  }
+
+  .servicios2 p {
+    margin: 0 2em;
+  }
+
+  .servicios2 {
+    display: flex;
+    flex-direction: column;
+    border-style: none;
+  }
+
+  .service-block {
+    border-style: none;
+    border-bottom: 0.1em #740202 solid;
+  }
+
+  .service-block1 {
+    border-style: none;
+    border-bottom: 0.1em #740202 solid;
+  }
+
+  .service-block2 {
+    border-style: none;
+    border-bottom: 0.1em #740202 solid;
+  }
+
+  .service-block3 {
+    border-style: none;
+    border-bottom: 0.1em #740202 solid;
+  }
+
+  .service-block4 {
+    border-style: none;
+    border-bottom: 0.1em #740202 solid;
+  }
+
+  .service-block5 {
+    border-style: none;
+  }
+
+  /*******************PORTFOLIO
+  SECTION*******************/
+
+  .portfolio{
+    position: relative;
+    justify-content: space-between;
+  }
+
+  .items {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
+
+  .img {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  /*******************CONTACT
+  SECTION*******************/
+
+  .contacto {
+    position: relative;
+    line-height: 0.2em;
+  }
+
+  .contacto h2{
+    padding-top: 1em;
+  }
+
+  .contactBlock {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .contactInfo{
+    width: 100%;
+    margin: 0 0 0 2em;
+    padding: 0;
+  }
+
+  .contactForm {
+    padding: 0;
+    margin: 1em 1em 1em 2em;
+    line-height: 2em;
+  }
+}
+
+/* COMPUTADORA CHICA */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  /*******************HEADER
+  SECTION*******************/
+
+  #mainHeader {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /*******************ABOUT
+  SECTION*******************/
+
+  .aboutText {
+    margin-top: 2em;
+  }
+
+  .aboutResume {
+    margin-top: 2em;
+  }
+
+  /*******************SERVICES
+  SECTION*******************/
+
+  #servicios {
+    padding: 0 0 2em 0;
+  }
+
+  .servicios {
+    padding-top: 1em;
+  }
+
+  .servicios1 {
+    padding: 0 2em;
+    margin: 0 2em;
+  }
+
+  .servicios2 {
+    padding: 0 2em;
+    margin: 0 2em;
+  }
+
+  /*******************PORTFOLIO
+  SECTION*******************/
+
+
+  /*******************CONTACT
+  SECTION*******************/
+
+}
+
+/* COMPUTADORA GRANDE */
+@media (min-width: 1200px) {
+
+  /*******************HEADER
+  SECTION*******************/
+
+  #mainHeader {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /*******************ABOUT
+  SECTION*******************/
+
+
+  /*******************SERVICES
+  SECTION*******************/
+
+
+  /*******************PORTFOLIO
+  SECTION*******************/
+
+
+  /*******************CONTACT
+  SECTION*******************/
+
+}
