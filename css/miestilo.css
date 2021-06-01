@@ -330,14 +330,35 @@
     font-family: "Dancing Script", cursive;
   }
 
+  .button2 {
+    width: auto;
+    position: relative;
+    border-radius: 1em;
+    padding: 10px;
+    background: #a3a3a3;
+    border: 2px #1c246c solid;
+    cursor: pointer;
+    font-size: 1.2em;
+    float: right;
+    border-color: none;
+ }
+  
+  .img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .items {
     position: relative;
     display: flex;
     justify-content:space-around;
   }
   .items img {
+    align-items: center;
     width: 22em;
     height: 14em;
+    margin-bottom: 2em;
   }
 
   .items h3{
