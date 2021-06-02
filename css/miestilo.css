@@ -91,6 +91,7 @@
     background: url(../imagenes/fondo.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
+    background-color: rgba(red, green, blue, alpha);
     height: 100%;
     position: relative;
     align-items: center;
