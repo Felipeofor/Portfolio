@@ -107,10 +107,9 @@ a {
 
 /***********************************HERO STYLES***********************************/
 #hero {
-  background: url(../imagenes/fondo.jpg) no-repeat center center;
+  background: url(/imagenes/hero.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
-  background-color: rgba(red, green, blue, alpha);
   height: 100%;
   position: relative;
   align-items: center;
@@ -132,32 +131,14 @@ a {
 
 .heroContent h1 {
   font-size: 50px;
-  color: rgb(0 255 78);
+  color: rgb(236, 236, 236);
   margin-top: 30px;
+  margin-top: 1.5em;
   margin-bottom: 10px;
   text-align: center;
 }
 
-.heroContent h2 {
-  font-size: 30px;
-  color: rgb(0 255 78);
-  text-align: center;
-}
 
-.heroContent .download {
-  text-align: center;
-  width: 10em;
-  position: relative;
-  color: #740202;
-  background: #0004ff33;
-  border: 1px #a2c7e3 solid;
-  border-radius: 1000px;
-  padding: 10px;
-  -webkit-transition: border-color 0.3s ease;
-  -o-transition: border-color 0.3s ease;
-  transition: border-color 0.3s ease;
-  cursor: pointer;
-}
 
 .heroContent .download a {
   color: white;
@@ -178,7 +159,7 @@ a {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  border: 3px rgb(0 255 78) solid;
+  border: 3px rgb(150, 208, 255) solid;
 }
 
 /***********************************ABOUT STYLES***********************************/
@@ -375,7 +356,7 @@ a {
   border-radius: 1em;
   padding: 10px;
   margin: 0 0 1em 0;
-  background: #a3a3a3;
+  background: #ffffff;
   border: 2px #1c246c solid;
   cursor: pointer;
   font-size: 1.2em;
