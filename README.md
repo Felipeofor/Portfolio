@@ -3,4 +3,6 @@ Mi portafolio personal.
 Proyecto final de desarrollo web en Coder House, aun en curso.
 
 
-![Screenshot 2021-05-31 222307](https://user-images.githubusercontent.com/81161385/120254659-b557a100-c260-11eb-8cd9-9f7543793d4b.jpg)
+
+![11](https://user-images.githubusercontent.com/81161385/120943327-9fd0f400-c704-11eb-9f3b-475173fdbf4f.jpg)
+
