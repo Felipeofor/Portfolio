@@ -1,0 +1,110 @@
+@import 'variables';
+
+/***********************************ABOUT STYLES***********************************/
+
+#about {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.aboutText {
+  width: 100%;
+  margin: 5em 5em 0 5em;
+
+  h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: $blue;
+    font-family: "Dancing Script", cursive;
+  }
+}
+
+.aboutResume {
+  width: 100%;
+  float: right;
+  position: relative;
+  margin: 5em 5em 0 0;
+
+  h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: $blue;
+    font-family: "Dancing Script", cursive;
+  }
+}
+
+
+.aboutSocial {
+  margin-top: 1em;
+
+  li:hover {
+    transform: scale(1.2, 1.2);
+    transition: 2seg;
+  }
+}
+
+
+.skillProgressContainer {
+  margin-bottom: 15px;
+  padding-left: 16px;
+  color: #454545;
+}
+
+.edu h2 {
+  margin: 1em 0 0 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: $blue;
+  font-family: "Dancing Script", cursive;
+}
+
+.educacion {
+  display: flex;
+}
+
+.educacionBlock {
+  margin-bottom: 15px;
+  padding-left: 16px;
+  width: 50%;
+}
+
+.skillBar {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  margin-top: 5px;
+  background: $grey;
+}
+
+.barPercent {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.inner-percent {
+  height: inherit;
+  width: 0;
+  background: $red;
+  -webkit-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.development {
+  background: $red;
+  width: 95%;
+  height: 5px;
+}
+
+.frontend {
+  background: $red;
+  height: 5px;
+  width: 95%;
+}
+
+.backend {
+  background: $red;
+  height: 5px;
+  width: 70%;
+}

@@ -1,3 +1,5 @@
+/********ANIDAMIENTO********/
+/***********************************UNIVERSAL STYLES***********************************/
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -22,40 +24,34 @@ img {
   padding-bottom: 80px;
 }
 
-/***********************************UNIVERSAL STYLES***********************************/
 body {
   font-family: "Roboto", sans-serif;
   color: #454545;
 }
-
-
-h2 {
+body h2 {
   margin-bottom: 1em;
 }
-
-h3 {
+body h3 {
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
-
-p {
+body p {
   font-size: 1.06em;
   line-height: 1.6;
   color: #220606;
 }
-
-ul {
+body ul {
   list-style: none;
 }
-
-li {
+body li {
   display: inline-block;
 }
-
-a {
+body a {
   text-decoration: none;
 }
 
+/***********VARAIBLES**********/
+/***COLORES***/
 /***********************************HEADER STYLES***********************************/
 #mainHeader {
   position: relative;
@@ -63,8 +59,28 @@ a {
   padding: 1em 1em 0 0;
   z-index: 900;
   background: #fff;
-  border-bottom: 1px #E52E2D solid;
+  border-bottom: 1px #9e0000 solid;
   overflow: hidden;
+}
+#mainHeader ul {
+  float: right;
+  overflow: hidden;
+  list-style: none;
+  text-align: right;
+}
+#mainHeader ul li {
+  display: inline-block;
+  margin-left: 20px;
+  line-height: 1.5;
+}
+#mainHeader ul li a {
+  color: #454545;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+#mainHeader ul li a :hover {
+  color: #9e0000;
+  transform: scale(1.2, 1.2);
 }
 
 .logo {
@@ -77,37 +93,11 @@ a {
   font-family: "Dancing Script", cursive;
 }
 
-#mainHeader ul {
-  float: right;
-  overflow: hidden;
-  list-style: none;
-  text-align: right;
-}
-
-#mainHeader ul li {
-  display: inline-block;
-  margin-left: 20px;
-  line-height: 1.5;
-}
-
-#mainHeader ul a {
-  color: #454545;
-  text-transform: uppercase;
-  font-size: 14px;
-}
-
-#mainHeader ul li a:hover {
-  color: #740202;
-}
-
-.li a:hover {
-  transform: scale(1.2, 1.2);
-}
-
-
+/***********VARAIBLES**********/
+/***COLORES***/
 /***********************************HERO STYLES***********************************/
 #hero {
-  background: url(https://www.desophict.com/wp-content/uploads/2021/03/desarrollo-web.jpg) no-repeat center center;
+  background: url(/imagenes/hero.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   height: 100%;
@@ -115,7 +105,6 @@ a {
   align-items: center;
   justify-content: center;
 }
-
 
 .heroContent {
   display: flex;
@@ -128,57 +117,50 @@ a {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-
 .heroContent h1 {
   font-size: 50px;
-  color: rgb(236, 236, 236);
+  color: #ececec;
   margin-top: 30px;
   margin-top: 1.5em;
   margin-bottom: 10px;
   text-align: center;
 }
-
-
-
 .heroContent .download a {
   color: white;
   font-size: 16px;
 }
-
-.heroContent .download a:hover {
-  color: #020315;
+.heroContent .download a :hover {
+  color: #1c246c;
 }
-
 .heroContent .download:hover {
-  border-color: rgb(0 255 78);
+  border-color: #00ff4e;
   background-color: #9e9e9ec5;
 }
-
 .heroContent img {
   align-items: center;
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  border: 3px rgb(150, 208, 255) solid;
+  border: 3px #96d0ff solid;
 }
 
+/***********VARAIBLES**********/
+/***COLORES***/
 /***********************************ABOUT STYLES***********************************/
-
 #about {
   display: flex;
   margin-bottom: 1em;
 }
 
+.aboutText {
+  width: 100%;
+  margin: 5em 5em 0 5em;
+}
 .aboutText h2 {
   font-size: 1.5em;
   font-weight: bold;
   color: #1c246c;
   font-family: "Dancing Script", cursive;
-}
-
-.aboutText {
-  width: 100%;
-  margin: 5em 5em 0 5em;
 }
 
 .aboutResume {
@@ -187,7 +169,6 @@ a {
   position: relative;
   margin: 5em 5em 0 0;
 }
-
 .aboutResume h2 {
   font-size: 1.5em;
   font-weight: bold;
@@ -198,13 +179,10 @@ a {
 .aboutSocial {
   margin-top: 1em;
 }
-
-
 .aboutSocial li:hover {
   transform: scale(1.2, 1.2);
   transition: 2seg;
 }
-
 
 .skillProgressContainer {
   margin-bottom: 15px;
@@ -247,10 +225,10 @@ a {
 .inner-percent {
   height: inherit;
   width: 0;
-  background: #740202;
-  -webkit-transition: all .3s linear;
-  -o-transition: all .3s linear;
-  transition: all .3s linear;
+  background: #9e0000;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .development {
@@ -271,8 +249,9 @@ a {
   width: 70%;
 }
 
+/***********VARAIBLES**********/
+/***COLORES***/
 /***********************************SERVICES STYLES***********************************/
-
 #servicios {
   position: relative;
   background: #f8f9fa;
@@ -293,7 +272,6 @@ a {
   padding: 0 1em 0 1em;
 }
 
-
 .servicios1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -306,21 +284,21 @@ a {
 }
 
 .service-block {
-  border-right: 0.1em #740202 solid;
-  border-bottom: 0.1em #740202 solid;
+  border-right: 0.1em #9e0000 solid;
+  border-bottom: 0.1em #9e0000 solid;
 }
 
 .service-block1 {
-  border-bottom: 0.1em #740202 solid;
+  border-bottom: 0.1em #9e0000 solid;
 }
 
 .service-block2 {
-  border-left: 0.1em #740202 solid;
-  border-bottom: 0.1em #740202 solid;
+  border-left: 0.1em #9e0000 solid;
+  border-bottom: 0.1em #9e0000 solid;
 }
 
 .service-block3 {
-  border-right: 0.1em #740202 solid;
+  border-right: 0.1em #9e0000 solid;
   padding-top: 2em;
 }
 
@@ -329,18 +307,17 @@ a {
 }
 
 .service-block5 {
-  border-left: 0.1em #740202 solid;
+  border-left: 0.1em #9e0000 solid;
   padding-top: 2em;
 }
 
-
+/***********VARAIBLES**********/
+/***COLORES***/
 /***********************************PORTFOLIO STYLES***********************************/
-
 .portfolio {
   position: relative;
   padding-bottom: 1em;
 }
-
 .portfolio h2 {
   text-align: center;
   margin-top: 1em;
@@ -375,24 +352,23 @@ a {
   display: flex;
   justify-content: space-around;
 }
-
 .items img {
   align-items: center;
   width: 22em;
   height: 14em;
   margin-bottom: 2em;
 }
-
 .items h3 {
   text-align: center;
 }
 
+/***********VARAIBLES**********/
+/***COLORES***/
 /***********************************CONTACT STYLES***********************************/
 .contacto {
   background: #f8f9fa;
   padding-top: 1em;
 }
-
 .contacto h2 {
   text-align: center;
   float: top;
@@ -428,8 +404,7 @@ a {
   display: flex;
   float: left;
 }
-
-.contact-text p:first-child {
+.contactText p:first-child {
   text-align: left;
   color: #454545;
   font-weight: bold;
@@ -487,38 +462,34 @@ textarea {
   transition: 2seg;
 }
 
+/***********VARAIBLES**********/
+/***COLORES***/
 /***********************************FOOTER STYLES***********************************/
 footer {
   padding: 12px 0 12px 0;
   text-align: center;
-  border-top: 0.1em #740202 solid;
+  border-top: 0.1em #9e0000 solid;
 }
-
 footer p {
-  color: #740202;
+  color: #9e0000;
 }
-
 
 /* * * * * * * * * * * MEDIA QUERIES * * * * * * * * * * * * */
-
 /* IPAD */
-
 @media (min-width: 1px) and (max-width: 991.98px) {
-
   /*******************HEADER
-  SECTION*******************/
+    SECTION*******************/
   #mainHeader {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-
   #mainHeader ul {
     text-align: center;
   }
 
   /*******************ABOUT
-  SECTION*******************/
+    SECTION*******************/
   #about {
     display: flex;
     flex-wrap: wrap;
@@ -534,8 +505,7 @@ footer p {
   }
 
   /*******************SERVICES
-  SECTION*******************/
-
+    SECTION*******************/
   #servicios {
     margin: 0;
     padding: 0;
@@ -553,12 +523,7 @@ footer p {
     align-content: center;
     padding: 0;
   }
-
   .servicios1 p {
-    margin: 0 2em;
-  }
-
-  .servicios2 p {
     margin: 0 2em;
   }
 
@@ -567,32 +532,42 @@ footer p {
     flex-direction: column;
     border-style: none;
   }
+  .servicios2 p {
+    margin: 0 2em;
+  }
 
   .service-block {
     border-style: none;
-    border-bottom: 0.1em #740202 solid;
+    border-bottom: 0.1em #9e0000 solid;
+    padding-bottom: 1em;
   }
 
   .service-block1 {
     padding-top: 1em;
     border-style: none;
-    border-bottom: 0.1em #740202 solid;
+    border-bottom: 0.1em #9e0000 solid;
+    padding-bottom: 1em;
   }
 
   .service-block2 {
     padding-top: 1em;
     border-style: none;
-    border-bottom: 0.1em #740202 solid;
+    border-bottom: 0.1em #9e0000 solid;
+    padding-bottom: 1em;
   }
 
   .service-block3 {
     border-style: none;
-    border-bottom: 0.1em #740202 solid;
+    border-style: none;
+    border-bottom: 0.1em #9e0000 solid;
+    padding-bottom: 1em;
   }
 
   .service-block4 {
     border-style: none;
-    border-bottom: 0.1em #740202 solid;
+    border-style: none;
+    border-bottom: 0.1em #9e0000 solid;
+    padding-bottom: 1em;
   }
 
   .service-block5 {
@@ -600,8 +575,7 @@ footer p {
   }
 
   /*******************PORTFOLIO
-  SECTION*******************/
-
+    SECTION*******************/
   .portfolio {
     position: relative;
     justify-content: space-between;
@@ -624,13 +598,11 @@ footer p {
   }
 
   /*******************CONTACT
-  SECTION*******************/
-
+    SECTION*******************/
   .contacto {
     position: relative;
     line-height: 0.2em;
   }
-
   .contacto h2 {
     padding-top: 1em;
   }
@@ -652,22 +624,17 @@ footer p {
     line-height: 2em;
   }
 }
-
 /* COMPUTADORA CHICA */
-
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
   /*******************HEADER
-  SECTION*******************/
-
+    SECTION*******************/
   #mainHeader {
     display: flex;
     justify-content: space-between;
   }
 
   /*******************ABOUT
-  SECTION*******************/
-
+    SECTION*******************/
   .aboutText {
     margin-top: 2em;
   }
@@ -677,8 +644,7 @@ footer p {
   }
 
   /*******************SERVICES
-  SECTION*******************/
-
+    SECTION*******************/
   #servicios {
     padding: 0 0 2em 0;
   }
@@ -696,40 +662,15 @@ footer p {
     padding: 0 2em;
     margin: 0 2em;
   }
-
-  /*******************PORTFOLIO
-  SECTION*******************/
-
-
-  /*******************CONTACT
-  SECTION*******************/
-
 }
-
 /* COMPUTADORA GRANDE */
 @media (min-width: 1200px) {
-
   /*******************HEADER
-  SECTION*******************/
-
+    SECTION*******************/
   #mainHeader {
     display: flex;
     justify-content: space-between;
   }
-
-  /*******************ABOUT
-  SECTION*******************/
-
-
-  /*******************SERVICES
-  SECTION*******************/
-
-
-  /*******************PORTFOLIO
-  SECTION*******************/
-
-
-  /*******************CONTACT
-  SECTION*******************/
-
 }
+
+/*# sourceMappingURL=style.css.map */

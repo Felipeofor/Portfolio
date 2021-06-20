@@ -1,0 +1,56 @@
+@import 'variables';
+
+/***********************************HERO STYLES***********************************/
+#hero {
+  background: url(/imagenes/hero.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.heroContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  h1 {
+    font-size: 50px;
+    color: rgb(236, 236, 236);
+    margin-top: 30px;
+    margin-top: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .download a {
+    color: white;
+    font-size: 16px;
+
+    :hover {
+      color: $blue;
+    }
+  }
+
+  .download:hover {
+    border-color: rgb(0 255 78);
+    background-color: #9e9e9ec5;
+  }
+
+  img {
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px rgb(150, 208, 255) solid;
+  }
+}

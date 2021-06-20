@@ -1,0 +1,101 @@
+@import 'variables';
+/***********************************CONTACT STYLES***********************************/
+.contacto {
+  background: #f8f9fa;
+  padding-top: 1em;
+
+  h2 {
+    text-align: center;
+    float: top;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: $blue;
+    font-family: "Dancing Script", cursive;
+  }
+}
+
+
+.datos {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  padding-left: 2em;
+}
+
+.contactBlock {
+  display: flex;
+  justify-content: center;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 40%;
+  margin: 0 4em 2em 2em;
+  padding: 1em 2em 0 4em;
+  justify-content: space-around;
+}
+
+.contactText {
+  display: flex;
+  float: left;
+
+  p:first-child {
+    text-align: left;
+    color: #454545;
+    font-weight: bold;
+  }
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  padding-right: 6em;
+  margin: 2em 4em 2em 2em;
+}
+
+input[type=text] {
+  display: inline-block;
+  width: 100%;
+  padding: 1em;
+  margin: 0.5em 0 0.5em 0;
+  height: 45px;
+  border-radius: 1em;
+  font-size: 1.2em;
+  background: #f8f9fa;
+  border: 1px $grey solid;
+  color: $grey;
+}
+
+textarea {
+  display: inline-block;
+  width: 100%;
+  border-radius: 1em;
+  padding: 5px;
+  margin-top: 0.5em;
+  font-size: 1.2em;
+  background: #f8f9fa;
+  border: 1px $grey solid;
+  color: $grey;
+}
+
+#contactSubmit {
+  width: 6em;
+  position: relative;
+  border-radius: 1em;
+  margin-top: 0.4em;
+  padding: 10px;
+  background: none;
+  border: 1px $grey solid;
+  cursor: pointer;
+  font-size: 1.2em;
+  float: right;
+}
+
+#contactSubmit:hover {
+  transform: scaleX(1.04);
+  transition: 2seg;
+}

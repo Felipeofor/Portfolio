@@ -1,0 +1,57 @@
+/***********************************UNIVERSAL STYLES***********************************/
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #454545;
+
+  h2 {
+    margin-bottom: 1em;
+  }
+
+  h3 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  p {
+    font-size: 1.06em;
+    line-height: 1.6;
+    color: #220606;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}

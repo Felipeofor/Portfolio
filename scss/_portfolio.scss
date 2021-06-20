@@ -1,0 +1,53 @@
+@import 'variables';
+/***********************************PORTFOLIO STYLES***********************************/
+
+.portfolio {
+  position: relative;
+  padding-bottom: 1em;
+
+  h2 {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: $blue;
+    font-family: "Dancing Script", cursive;
+  }
+}
+
+.button2 {
+  width: auto;
+  position: relative;
+  border-radius: 1em;
+  padding: 10px;
+  margin: 0 0 1em 0;
+  background: #ffffff;
+  border: 2px $blue solid;
+  cursor: pointer;
+  font-size: 1.2em;
+  float: right;
+  border-color: none;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.items {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+
+  img {
+    align-items: center;
+    width: 22em;
+    height: 14em;
+    margin-bottom: 2em;
+  }
+
+  h3 {
+    text-align: center;
+  }
+}

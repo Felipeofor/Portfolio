@@ -1,0 +1,63 @@
+@import 'variables';
+/***********************************SERVICES STYLES***********************************/
+
+#servicios {
+    position: relative;
+    background: #f8f9fa;
+    padding: 0 10em 4em 10em;
+  }
+  
+  .servicios {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: $blue;
+    font-family: "Dancing Script", cursive;
+  }
+  
+  .servicios1 p {
+    padding: 0 1em 0 1em;
+  }
+  
+  
+  .servicios1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 13em);
+    text-align: center;
+    padding: 2em 0 0 0;
+    font-weight: bold;
+    color: $blue;
+    font-family: "Dancing Script";
+  }
+  
+  .service-block {
+    border-right: 0.1em $red solid;
+    border-bottom: 0.1em $red solid;
+    
+  }
+  
+  .service-block1 {
+    border-bottom: 0.1em $red solid;
+  }
+  
+  .service-block2 {
+    border-left: 0.1em $red solid;
+    border-bottom: 0.1em $red solid;
+  }
+  
+  .service-block3 {
+    border-right: 0.1em $red solid;
+    padding-top: 2em;
+  }
+  
+  .service-block4 {
+    padding-top: 2em;
+  }
+  
+  .service-block5 {
+    border-left: 0.1em $red solid;
+    padding-top: 2em;
+  }
