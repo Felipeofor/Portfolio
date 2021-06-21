@@ -185,6 +185,7 @@ body a {
 }
 .aboutSocial a {
   color: white;
+  font-size: 0em;
 }
 
 .skillProgressContainer {
