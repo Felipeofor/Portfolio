@@ -26,7 +26,7 @@ img {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #454545;
+  color: black;
 }
 body h2 {
   margin-bottom: 1em;
@@ -38,7 +38,7 @@ body h3 {
 body p {
   font-size: 1.06em;
   line-height: 1.6;
-  color: #220606;
+  color: black;
 }
 body ul {
   list-style: none;
@@ -89,7 +89,7 @@ body a {
   line-height: 1;
   font-size: 24pt;
   font-weight: bold;
-  color: #0018ff;
+  color: #000f9a;
   font-family: "Dancing Script", cursive;
 }
 
@@ -130,7 +130,7 @@ body a {
   font-size: 16px;
 }
 .heroContent .download a :hover {
-  color: #0018ff;
+  color: #000f9a;
 }
 .heroContent .download:hover {
   border-color: #00ff4e;
@@ -159,7 +159,7 @@ body a {
 .aboutText h2 {
   font-size: 1.5em;
   font-weight: bold;
-  color: #0018ff;
+  color: #000f9a;
   font-family: "Dancing Script", cursive;
 }
 
@@ -172,7 +172,7 @@ body a {
 .aboutResume h2 {
   font-size: 1.5em;
   font-weight: bold;
-  color: #0018ff;
+  color: #000f9a;
   font-family: "Dancing Script", cursive;
 }
 
@@ -198,7 +198,7 @@ body a {
   margin: 1em 0 0 0;
   font-size: 1.5em;
   font-weight: bold;
-  color: #0018ff;
+  color: #000f9a;
   font-family: "Dancing Script", cursive;
 }
 
@@ -268,7 +268,7 @@ body a {
   padding-top: 2em;
   font-size: 1.2em;
   font-weight: bold;
-  color: #0018ff;
+  color: #000f9a;
   font-family: "Dancing Script", cursive;
 }
 
@@ -283,7 +283,7 @@ body a {
   text-align: center;
   padding: 2em 0 0 0;
   font-weight: bold;
-  color: #0018ff;
+  color: #000f9a;
   font-family: "Dancing Script";
 }
 
@@ -327,7 +327,7 @@ body a {
   margin-top: 1em;
   font-size: 1.5em;
   font-weight: bold;
-  color: #0018ff;
+  color: #000f9a;
   font-family: "Dancing Script", cursive;
 }
 
@@ -338,7 +338,7 @@ body a {
   padding: 10px;
   margin: 0 0 1em 0;
   background: #ffffff;
-  border: 2px #0018ff solid;
+  border: 2px #000f9a solid;
   cursor: pointer;
   font-size: 1.2em;
   float: right;
@@ -378,7 +378,7 @@ body a {
   float: top;
   font-size: 1.5em;
   font-weight: bold;
-  color: #0018ff;
+  color: #000f9a;
   font-family: "Dancing Script", cursive;
 }
 
@@ -675,6 +675,10 @@ footer p {
     display: flex;
     justify-content: space-between;
   }
+}
+/*************ERROR 404*****************/
+body {
+  background-image: url(/imagenes/error.jpg);
 }
 
 /*# sourceMappingURL=style.css.map */
