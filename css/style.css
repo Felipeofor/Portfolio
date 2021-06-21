@@ -89,7 +89,7 @@ body a {
   line-height: 1;
   font-size: 24pt;
   font-weight: bold;
-  color: #1c246c;
+  color: #0018ff;
   font-family: "Dancing Script", cursive;
 }
 
@@ -130,7 +130,7 @@ body a {
   font-size: 16px;
 }
 .heroContent .download a :hover {
-  color: #1c246c;
+  color: #0018ff;
 }
 .heroContent .download:hover {
   border-color: #00ff4e;
@@ -159,7 +159,7 @@ body a {
 .aboutText h2 {
   font-size: 1.5em;
   font-weight: bold;
-  color: #1c246c;
+  color: #0018ff;
   font-family: "Dancing Script", cursive;
 }
 
@@ -172,7 +172,7 @@ body a {
 .aboutResume h2 {
   font-size: 1.5em;
   font-weight: bold;
-  color: #1c246c;
+  color: #0018ff;
   font-family: "Dancing Script", cursive;
 }
 
@@ -182,6 +182,9 @@ body a {
 .aboutSocial li:hover {
   transform: scale(1.2, 1.2);
   transition: 2seg;
+}
+.aboutSocial a {
+  color: white;
 }
 
 .skillProgressContainer {
@@ -194,7 +197,7 @@ body a {
   margin: 1em 0 0 0;
   font-size: 1.5em;
   font-weight: bold;
-  color: #1c246c;
+  color: #0018ff;
   font-family: "Dancing Script", cursive;
 }
 
@@ -264,7 +267,7 @@ body a {
   padding-top: 2em;
   font-size: 1.2em;
   font-weight: bold;
-  color: #1c246c;
+  color: #0018ff;
   font-family: "Dancing Script", cursive;
 }
 
@@ -279,7 +282,7 @@ body a {
   text-align: center;
   padding: 2em 0 0 0;
   font-weight: bold;
-  color: #1c246c;
+  color: #0018ff;
   font-family: "Dancing Script";
 }
 
@@ -323,7 +326,7 @@ body a {
   margin-top: 1em;
   font-size: 1.5em;
   font-weight: bold;
-  color: #1c246c;
+  color: #0018ff;
   font-family: "Dancing Script", cursive;
 }
 
@@ -334,7 +337,7 @@ body a {
   padding: 10px;
   margin: 0 0 1em 0;
   background: #ffffff;
-  border: 2px #1c246c solid;
+  border: 2px #0018ff solid;
   cursor: pointer;
   font-size: 1.2em;
   float: right;
@@ -374,7 +377,7 @@ body a {
   float: top;
   font-size: 1.5em;
   font-weight: bold;
-  color: #1c246c;
+  color: #0018ff;
   font-family: "Dancing Script", cursive;
 }
 
