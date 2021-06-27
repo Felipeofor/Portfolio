@@ -52,49 +52,6 @@ body a {
 
 /***********VARAIBLES**********/
 /***COLORES***/
-/***********************************HEADER STYLES***********************************/
-#mainHeader {
-  position: relative;
-  max-height: fit-content;
-  padding: 1em 1em 0 0;
-  z-index: 900;
-  background: #fff;
-  border-bottom: 1px #9e0000 solid;
-  overflow: hidden;
-}
-#mainHeader ul {
-  float: right;
-  overflow: hidden;
-  list-style: none;
-  text-align: right;
-}
-#mainHeader ul li {
-  display: inline-block;
-  margin-left: 20px;
-  line-height: 1.5;
-}
-#mainHeader ul li a {
-  color: #454545;
-  text-transform: uppercase;
-  font-size: 14px;
-}
-#mainHeader ul li a :hover {
-  color: #9e0000;
-  transform: scale(1.2, 1.2);
-}
-
-.logo {
-  float: left;
-  margin: -0.3em 0 0.1em 0.5em;
-  line-height: 1;
-  font-size: 24pt;
-  font-weight: bold;
-  color: #000f9a;
-  font-family: "Dancing Script", cursive;
-}
-
-/***********VARAIBLES**********/
-/***COLORES***/
 /***********************************HERO STYLES***********************************/
 #hero {
   background: url(https://crehana-blog.imgix.net/media/filer_public/4f/fe/4ffe7456-b63b-4e0f-8fd3-fc619bc0e345/habilidades-de-un-programador.jpg) no-repeat center center;
@@ -481,17 +438,6 @@ footer p {
 /* * * * * * * * * * * MEDIA QUERIES * * * * * * * * * * * * */
 /* IPAD */
 @media (min-width: 1px) and (max-width: 991.98px) {
-  /*******************HEADER
-    SECTION*******************/
-  #mainHeader {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  #mainHeader ul {
-    text-align: center;
-  }
-
   /*******************ABOUT
     SECTION*******************/
   #about {
@@ -630,13 +576,6 @@ footer p {
 }
 /* COMPUTADORA CHICA */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  /*******************HEADER
-    SECTION*******************/
-  #mainHeader {
-    display: flex;
-    justify-content: space-between;
-  }
-
   /*******************ABOUT
     SECTION*******************/
   .aboutText {
@@ -665,15 +604,6 @@ footer p {
   .servicios2 {
     padding: 0 2em;
     margin: 0 2em;
-  }
-}
-/* COMPUTADORA GRANDE */
-@media (min-width: 1200px) {
-  /*******************HEADER
-    SECTION*******************/
-  #mainHeader {
-    display: flex;
-    justify-content: space-between;
   }
 }
 

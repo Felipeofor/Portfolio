@@ -4,18 +4,6 @@
 
 @media (min-width: 1px) and (max-width: 991.98px) {
 
-  /*******************HEADER
-    SECTION*******************/
-  #mainHeader {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-    ul {
-      text-align: center;
-    }
-  }
-
   /*******************ABOUT
     SECTION*******************/
   #about {
@@ -159,14 +147,6 @@
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
-  /*******************HEADER
-    SECTION*******************/
-
-  #mainHeader {
-    display: flex;
-    justify-content: space-between;
-  }
-
   /*******************ABOUT
     SECTION*******************/
 
@@ -199,18 +179,5 @@
     margin: 0 2em;
   }
 
-
-}
-
-/* COMPUTADORA GRANDE */
-@media (min-width: 1200px) {
-
-  /*******************HEADER
-    SECTION*******************/
-
-  #mainHeader {
-    display: flex;
-    justify-content: space-between;
-  }
 
 }
