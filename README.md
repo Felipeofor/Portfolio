@@ -1,6 +1,6 @@
 # Portfolio
 Mi portafolio personal.
-Proyecto final de desarrollo web en Coder House, aun en curso.
+Proyecto final de desarrollo web en Coder House.
 
 
 
