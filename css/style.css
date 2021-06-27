@@ -676,9 +676,5 @@ footer p {
     justify-content: space-between;
   }
 }
-/*************ERROR 404*****************/
-body {
-  background-image: url(/imagenes/error.jpg);
-}
 
 /*# sourceMappingURL=style.css.map */
