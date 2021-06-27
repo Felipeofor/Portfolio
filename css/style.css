@@ -54,7 +54,7 @@ body a {
 /***COLORES***/
 /***********************************HERO STYLES***********************************/
 #hero {
-  background: url(https://crehana-blog.imgix.net/media/filer_public/4f/fe/4ffe7456-b63b-4e0f-8fd3-fc619bc0e345/habilidades-de-un-programador.jpg) no-repeat center center;
+  background: url(/imagenes/hero.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   height: 100%;
