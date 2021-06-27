@@ -52,6 +52,49 @@ body a {
 
 /***********VARAIBLES**********/
 /***COLORES***/
+/***********************************HEADER STYLES***********************************/
+#mainHeader {
+  position: relative;
+  max-height: fit-content;
+  padding: 1em 1em 0 0;
+  z-index: 900;
+  background: #fff;
+  border-bottom: 1px #9e0000 solid;
+  overflow: hidden;
+}
+#mainHeader ul {
+  float: right;
+  overflow: hidden;
+  list-style: none;
+  text-align: right;
+}
+#mainHeader ul li {
+  display: inline-block;
+  margin-left: 20px;
+  line-height: 1.5;
+}
+#mainHeader ul li a {
+  color: #454545;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+#mainHeader ul li a :hover {
+  color: #9e0000;
+  transform: scale(1.2, 1.2);
+}
+
+.logo {
+  float: left;
+  margin: -0.3em 0 0.1em 0.5em;
+  line-height: 1;
+  font-size: 24pt;
+  font-weight: bold;
+  color: #1c246c;
+  font-family: "Dancing Script", cursive;
+}
+
+/***********VARAIBLES**********/
+/***COLORES***/
 /***********************************HERO STYLES***********************************/
 #hero {
   background: url(/imagenes/hero.jpg) no-repeat center center;
@@ -87,7 +130,7 @@ body a {
   font-size: 16px;
 }
 .heroContent .download a :hover {
-  color: #000f9a;
+  color: #1c246c;
 }
 .heroContent .download:hover {
   border-color: #00ff4e;
@@ -116,7 +159,7 @@ body a {
 .aboutText h2 {
   font-size: 1.5em;
   font-weight: bold;
-  color: #000f9a;
+  color: #1c246c;
   font-family: "Dancing Script", cursive;
 }
 
@@ -129,7 +172,7 @@ body a {
 .aboutResume h2 {
   font-size: 1.5em;
   font-weight: bold;
-  color: #000f9a;
+  color: #1c246c;
   font-family: "Dancing Script", cursive;
 }
 
@@ -155,7 +198,7 @@ body a {
   margin: 1em 0 0 0;
   font-size: 1.5em;
   font-weight: bold;
-  color: #000f9a;
+  color: #1c246c;
   font-family: "Dancing Script", cursive;
 }
 
@@ -225,7 +268,7 @@ body a {
   padding-top: 2em;
   font-size: 1.2em;
   font-weight: bold;
-  color: #000f9a;
+  color: #1c246c;
   font-family: "Dancing Script", cursive;
 }
 
@@ -240,7 +283,7 @@ body a {
   text-align: center;
   padding: 2em 0 0 0;
   font-weight: bold;
-  color: #000f9a;
+  color: #1c246c;
   font-family: "Dancing Script";
 }
 
@@ -284,7 +327,7 @@ body a {
   margin-top: 1em;
   font-size: 1.5em;
   font-weight: bold;
-  color: #000f9a;
+  color: #1c246c;
   font-family: "Dancing Script", cursive;
 }
 
@@ -295,7 +338,7 @@ body a {
   padding: 10px;
   margin: 0 0 1em 0;
   background: #ffffff;
-  border: 2px #000f9a solid;
+  border: 2px #1c246c solid;
   cursor: pointer;
   font-size: 1.2em;
   float: right;
@@ -335,7 +378,7 @@ body a {
   float: top;
   font-size: 1.5em;
   font-weight: bold;
-  color: #000f9a;
+  color: #1c246c;
   font-family: "Dancing Script", cursive;
 }
 
@@ -438,6 +481,17 @@ footer p {
 /* * * * * * * * * * * MEDIA QUERIES * * * * * * * * * * * * */
 /* IPAD */
 @media (min-width: 1px) and (max-width: 991.98px) {
+  /*******************HEADER
+    SECTION*******************/
+  #mainHeader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #mainHeader ul {
+    text-align: center;
+  }
+
   /*******************ABOUT
     SECTION*******************/
   #about {
@@ -489,35 +543,30 @@ footer p {
   .service-block {
     border-style: none;
     border-bottom: 0.1em #9e0000 solid;
-    padding-bottom: 1em;
   }
 
   .service-block1 {
     padding-top: 1em;
     border-style: none;
     border-bottom: 0.1em #9e0000 solid;
-    padding-bottom: 1em;
   }
 
   .service-block2 {
     padding-top: 1em;
     border-style: none;
     border-bottom: 0.1em #9e0000 solid;
-    padding-bottom: 1em;
   }
 
   .service-block3 {
     border-style: none;
     border-style: none;
     border-bottom: 0.1em #9e0000 solid;
-    padding-bottom: 1em;
   }
 
   .service-block4 {
     border-style: none;
     border-style: none;
     border-bottom: 0.1em #9e0000 solid;
-    padding-bottom: 1em;
   }
 
   .service-block5 {
@@ -576,6 +625,13 @@ footer p {
 }
 /* COMPUTADORA CHICA */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  /*******************HEADER
+    SECTION*******************/
+  #mainHeader {
+    display: flex;
+    justify-content: space-between;
+  }
+
   /*******************ABOUT
     SECTION*******************/
   .aboutText {
@@ -604,6 +660,15 @@ footer p {
   .servicios2 {
     padding: 0 2em;
     margin: 0 2em;
+  }
+}
+/* COMPUTADORA GRANDE */
+@media (min-width: 1200px) {
+  /*******************HEADER
+    SECTION*******************/
+  #mainHeader {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
