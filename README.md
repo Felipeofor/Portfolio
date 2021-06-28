@@ -22,4 +22,11 @@ My personal portfolio. Final web development project at Coder House.
 ![principal](https://user-images.githubusercontent.com/81161385/123555589-0a51de80-d75d-11eb-850c-eb49229abfc0.jpg)
 ![celular](https://user-images.githubusercontent.com/81161385/123555593-10e05600-d75d-11eb-8254-d2724233c3fd.jpg)
 
+Applying seo:
+
+Desktop
+![pc](https://user-images.githubusercontent.com/81161385/123671534-c7534200-d814-11eb-9b17-d564528e4b4b.jpg)
+
+Mobile
+![mobile](https://user-images.githubusercontent.com/81161385/123671558-cd492300-d814-11eb-96a2-ee429077b754.jpg)
 
