@@ -98,7 +98,7 @@ body a {
 /***********************************HERO STYLES***********************************/
 #hero {
   background: url(/imagenes/hero.jpg);
-  background-repeat: no-repeat center center;
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 100%;
