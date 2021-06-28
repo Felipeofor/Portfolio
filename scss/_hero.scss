@@ -2,7 +2,8 @@
 
 /***********************************HERO STYLES***********************************/
 #hero {
-  background: url(/imagenes/hero.jpg) no-repeat center center;
+  background: url(/imagenes/hero.jpg);
+  background-repeat: no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   height: 100%;
