@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Personal portfolio the Ramos Felipe - Frontend Developer</title>
-    <meta name="description" content="Here you will find my technical speeches, my academic history, works made by me and a section where you can contact me.">
+    <meta name="description"
+        content="Here you will find my technical speeches, my academic history, works made by me and a section where you can contact me.">
     <meta name="keywords" content="PERSONAL, PORTFOLIO, FRONTEND, DEVELOPER, RAMOS, FELIPE">
     <link rel="icon" href="imagenes/favicon.ico" />
 </head>
@@ -15,7 +16,7 @@
 <body>
 
     <!--------------------------------------HEADER-------------------------------------->
-    
+
     <header id="mainHeader">
         <a class="logo" href="https://felipeofor.github.io/Portfolio/">Welcome!</a>
         <ul>
@@ -53,7 +54,7 @@
                 professional and today as an employee I continue to put it into practice.
             </p>
 
-            <p>I am currently looking to get started in the labor market of  programming, I have learned a lot until the
+            <p>I am currently looking to get started in the labor market of programming, I have learned a lot until the
                 time and I'm passionate about the limitless things you can do and the interesting people you have
                 this world!
             </p>
@@ -196,7 +197,8 @@
                     <path d="M16 17v2a2 2 0 0 1 -2 2h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2" />
                 </svg>
                 <h3>Well documented</h3>
-                <p>The code in addition to being clean, readable, understandable or structured among other features, must
+                <p>The code in addition to being clean, readable, understandable or structured among other features,
+                    must
                     be very well documented in order to carry out a maintenance, modification or extension of
                     our source.</p>
             </div>
@@ -300,14 +302,19 @@
 
             </div>
             <div>
-                <form class="contactForm" data-aos="fade-up-left" data-aos-duration="2500">
-                <label>
-                    <input type="text" id="name" value="Name" type="checkbox" required>
-                    <input type="text" id="email" value="Email" type="checkbox" required>
-                    <input type="text" id="subject" value="Subject" type="checkbox" required>
-                    <textarea id="message" rows="10" cols="75" type="checkbox" required>Now it's up to you to tell me something.</textarea>
+                <form class="contactForm" data-aos="fade-up-left" data-aos-duration="2500" action="enviar.php"
+                    method="post" name="contact-form">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="nombre" value="Name" type="checkbox" required>
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" value="Email" type="checkbox" required="required">
+                    <label for="subject"></label>
+                    <input type="text" id="subject" name="subject" value="Subject" type="checkbox" required>
+                    <label for="message"></label>
+                    <textarea id="message" name="message" rows="10" cols="60" type="checkbox"
+                        required>Now it's up to you to tell me something.</textarea>
                     <input type="submit" id="contactSubmit" value="Submit"><span id="status"></span>
-                </label>
+
                 </form>
             </div>
         </div>

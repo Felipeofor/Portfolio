@@ -424,6 +424,19 @@ body a {
   margin: 2em 4em 2em 2em;
 }
 
+#email {
+  display: inline-block;
+  width: 100%;
+  padding: 1em;
+  margin: 0.5em 0 0.5em 0;
+  height: 45px;
+  border-radius: 1em;
+  font-size: 1.2em;
+  background: #f8f9fa;
+  border: 1px #a3a3a3 solid;
+  color: #a3a3a3;
+}
+
 input[type=text] {
   display: inline-block;
   width: 100%;
