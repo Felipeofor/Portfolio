@@ -6,11 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="imagenes/favicon.ico" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Personal portfolio the Ramos Felipe - Frontend Developer</title>
     <meta name="description"
         content="Here you will find my technical speeches, my academic history, works made by me and a section where you can contact me.">
     <meta name="keywords" content="PERSONAL, PORTFOLIO, FRONTEND, DEVELOPER, RAMOS, FELIPE">
-    <link rel="icon" href="imagenes/favicon.ico" />
+    
+    
 </head>
 
 <body>
@@ -80,7 +83,7 @@
                         </svg><i class="far github"></i>GitHub</a></li>
             </ul>
         </div>
-        <div class="aboutResume" data-aos="fade-left" data-aos-duration="2500">
+        <div class="aboutResume" data-aos="fade-down-right" data-aos-duration="2500">
             <div class="skills">
                 <h2>My Skills</h2>
                 <div class="skillProgressContainer">
@@ -242,7 +245,7 @@
 
     <!--------------------------------------CONTACT SECTION-------------------------------------->
 
-    <section class="contacto" id="contacto">
+    <section class="contacto" data-aos="fade-down-right" data-aos-duration="2500" id="contacto">
         <h2>Contact</h2>
         <div class="contactBlock">
             <div class="contactInfo" data-aos="fade-down-right" data-aos-duration="2500">
@@ -287,14 +290,14 @@
                 </div>
             </div>
             <div>
-                <form class="contactForm" data-aos="fade-up-left" data-aos-duration="2500" action="enviar1.php"
+                <form class="contactForm" action="enviar1.php"
                     method="POST" name="contact-form">
                     <label for="nombre">Name</label>
-                    <input type="text" id="name" name="nombre" required="required">
+                    <input type="text" name="nombre" required="required">
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" required="required">
                     <label for="subject">Subject</label>
-                    <input type="text" id="subject" name="subject" required="required">
+                    <input type="text" name="subject" required="required">
                     <label for="message"></label>
                     <textarea id="message" name="message" rows="10" cols="60" required="required"></textarea>
                     <input type="submit" id="contactSubmit" value="Submit"><span id="status"></span>
