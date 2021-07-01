@@ -359,7 +359,7 @@ body a {
 }
 .items img {
   align-items: center;
-  width: 22em;
+  width: 18em;
   height: 14em;
   margin-bottom: 2em;
 }
@@ -623,6 +623,7 @@ footer p {
   .contactBlock {
     flex-direction: column;
     justify-content: space-around;
+    width: 90%;
   }
 
   .contactInfo {
