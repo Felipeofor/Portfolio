@@ -5,12 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Css-->
     <link rel="stylesheet" href="css/style.css">
+    <!--Icon-->
     <link rel="icon" href="imagenes/favicon.ico" />
+    <!--Aos-->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--Title-->
     <title>Personal portfolio the Ramos Felipe - Frontend Developer</title>
+    <!--Description-->
     <meta name="description"
         content="Here you will find my technical speeches, my academic history, works made by me and a section where you can contact me.">
+    <!--Keywords-->
     <meta name="keywords" content="PERSONAL, PORTFOLIO, FRONTEND, DEVELOPER, RAMOS, FELIPE">
     
     
@@ -46,7 +52,7 @@
 
     <section id="about">
         <div class="aboutText" data-aos="fade-right" data-aos-duration="2500">
-            <h2>Hi! I´m Felipe</h2>
+            <h2>Hi! <span class="typed-words"></h2>
             <p>On my way I have gone through many things, from being an apprentice in a trade, being the one who teaches
                 it and even
                 open a business around it.
@@ -311,12 +317,33 @@
     <footer>
         <p>Copyright &#169; 2021 Ramos Felipe.</p>
     </footer>
+
+    <!--Bootstrap-->
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
+
+    <!--Animate On Scroll Library-->
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+
+    <!--Animated typed-->
+
+    <script src="js/typed.js"></script>
+    <script>
+    var typed = new Typed('.typed-words', {
+    strings: ["I'm Felipe!", "I'm Frontend Developer!"],
+    typeSpeed: 80,
+    backSpeed: 80,
+    backDelay: 4000,
+    startDelay: 1000,
+    loop: true,
+    showCursor: true
+    });
     </script>
 </body>
 </html>
