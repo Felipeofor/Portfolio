@@ -245,13 +245,13 @@ body a {
 .frontend {
   background: #9e0000;
   height: 5px;
-  width: 95%;
+  width: 75%;
 }
 
 .backend {
   background: #9e0000;
   height: 5px;
-  width: 95%;
+  width: 55%;
 }
 
 /***********VARAIBLES**********/
@@ -320,8 +320,8 @@ body a {
 /***COLORES***/
 /***********************************PORTFOLIO STYLES***********************************/
 .portfolio {
-  position: relative;
-  padding-bottom: 1em;
+  padding: 1rem;
+  margin: 2rem 0 2rem 0;
 }
 .portfolio h2 {
   text-align: center;
@@ -334,7 +334,6 @@ body a {
 
 .button2 {
   width: auto;
-  position: relative;
   border-radius: 1em;
   padding: 10px;
   margin: 0 0 1em 0;
@@ -350,12 +349,14 @@ body a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 8rem;
+  width: auto;
 }
 
 .items {
-  position: relative;
   display: flex;
   justify-content: space-around;
+  padding: 4rem;
 }
 .items img {
   align-items: center;
@@ -372,7 +373,7 @@ body a {
 /***********************************CONTACT STYLES***********************************/
 .contacto {
   background: #f8f9fa;
-  padding-top: 1em;
+  padding-top: 1rem;
 }
 .contacto h2 {
   text-align: center;
@@ -398,7 +399,6 @@ body a {
 .contactInfo {
   display: flex;
   flex-direction: column;
-  position: relative;
   width: 40%;
   margin: 0 4em 2em 2em;
   padding: 1em 2em 0 4em;
@@ -419,7 +419,6 @@ body a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position: relative;
   padding-right: 6em;
   margin: 2em 4em 2em 2em;
 }
@@ -464,7 +463,6 @@ textarea {
 
 #contactSubmit {
   width: 6em;
-  position: relative;
   border-radius: 1em;
   margin-top: 0.4em;
   padding: 10px;
@@ -478,6 +476,14 @@ textarea {
 #contactSubmit:hover {
   transform: scaleX(1.04);
   transition: 2seg;
+}
+
+.return {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0 3rem 0;
+  animation-duration: 5s;
 }
 
 /***********VARAIBLES**********/

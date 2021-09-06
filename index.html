@@ -18,8 +18,8 @@
         content="Here you will find my technical speeches, my academic history, works made by me and a section where you can contact me.">
     <!--Keywords-->
     <meta name="keywords" content="PERSONAL, PORTFOLIO, FRONTEND, DEVELOPER, RAMOS, FELIPE">
-    
-    
+
+
 </head>
 
 <body>
@@ -43,8 +43,8 @@
     <section id="hero">
         <div class="heroContent">
             <img src="imagenes/portada.jpg" alt="Foto-de-perfil">
-            <h1>Frontend Developer</h1>
-            <a class="button2" href="ramosFelipe-FrontEnd.pdf">Download CV</a>
+            <h1><span class="typed-words"></span></h1>
+            <a class="button2" href="RamosFelipeOmar_FrontEndDeveloper">Download CV</a>
         </div>
     </section>
 
@@ -52,7 +52,7 @@
 
     <section id="about">
         <div class="aboutText" data-aos="fade-right" data-aos-duration="2500">
-            <h2>Hi! <span class="typed-words"></h2>
+            <h2>About me!</h2>
             <p>On my way I have gone through many things, from being an apprentice in a trade, being the one who teaches
                 it and even
                 open a business around it.
@@ -93,7 +93,7 @@
             <div class="skills">
                 <h2>My Skills</h2>
                 <div class="skillProgressContainer">
-                    <h3>Html</h3>
+                    <h3>JavaScript</h3>
                     <div class="skillBar">
                         <div class="barPercent development" data-aos="fade-right" data-aos-duration="2500"
                             data-aos-delay="600">
@@ -102,7 +102,7 @@
                     </div>
                 </div>
                 <div class="skillProgressContainer">
-                    <h3>Css</h3>
+                    <h3>React.js</h3>
                     <div class="skillBar">
                         <div class="barPercent frontend" data-aos="fade-right" data-aos-duration="2500"
                             data-aos-delay="600">
@@ -111,7 +111,7 @@
                     </div>
                 </div>
                 <div class="skillProgressContainer">
-                    <h3>Javascript</h3>
+                    <h3>Backend</h3>
                     <div class="skillBar">
                         <div class="barPercent backend" data-aos="fade-right" data-aos-duration="2500"
                             data-aos-delay="600">
@@ -244,7 +244,7 @@
             </div>
             <div class="img">
                 <img src="imagenes/portfolio1.jpg" alt="Proyecto-1">
-                <a class="button2" href="https://felipeofor.github.io/AhorroMensual/">Ahorro Mensual</a>
+                <a class="button2" href="https://felipeofor.github.io/Gurumi/">Gurumi Handmade</a>
             </div>
             <div class="img">
                 <img src="imagenes/portfolio2.jpg" alt="Proyecto-2">
@@ -300,8 +300,7 @@
                 </div>
             </div>
             <div>
-                <form class="contactForm" action="enviar1.php"
-                    method="POST" name="contact-form">
+                <form class="contactForm" action="enviar1.php" method="POST" name="contact-form">
                     <label for="nombre">Name</label>
                     <input type="text" name="nombre" required="required">
                     <label for="email">Email</label>
@@ -314,6 +313,17 @@
                 </form>
             </div>
         </div>
+        <a class="return" href="#mainHeader">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-arrow-up-circle" width="80" height="80" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="#1c246c" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <circle cx="12" cy="12" r="9" />
+                <line x1="12" y1="8" x2="8" y2="12" />
+                <line x1="12" y1="8" x2="12" y2="16" />
+                <line x1="16" y1="12" x2="12" y2="8" />
+            </svg>
+        </a>
     </section>
 
     <!--------------------------------------FOOTER SECTION-------------------------------------->
@@ -339,15 +349,16 @@
 
     <script src="js/typed.js"></script>
     <script>
-    var typed = new Typed('.typed-words', {
-    strings: ["I'm Felipe!", "I'm Frontend Developer!"],
-    typeSpeed: 80,
-    backSpeed: 80,
-    backDelay: 4000,
-    startDelay: 1000,
-    loop: true,
-    showCursor: true
-    });
+        var typed = new Typed('.typed-words', {
+            strings: ["I'm Felipe!", "Frontend Developer!"],
+            typeSpeed: 80,
+            backSpeed: 80,
+            backDelay: 4000,
+            startDelay: 1000,
+            loop: true,
+            showCursor: true
+        });
     </script>
 </body>
+
 </html>
