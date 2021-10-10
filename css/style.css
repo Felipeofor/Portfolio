@@ -245,13 +245,13 @@ body a {
 .frontend {
   background: #9e0000;
   height: 5px;
-  width: 75%;
+  width: 85%;
 }
 
 .backend {
   background: #9e0000;
   height: 5px;
-  width: 55%;
+  width: 80%;
 }
 
 /***********VARAIBLES**********/
@@ -496,6 +496,28 @@ footer {
 }
 footer p {
   color: #9e0000;
+}
+
+/***********VARAIBLES**********/
+/***COLORES***/
+.languages {
+  margin: 1em 0 0 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #1c246c;
+  font-family: "Dancing Script", cursive;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.tools {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /*************ERROR 404*****************/

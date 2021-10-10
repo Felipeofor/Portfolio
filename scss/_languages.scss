@@ -1,0 +1,21 @@
+@import 'variables';
+
+.languages{
+    margin: 1em 0 0 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: $blue;
+    font-family: "Dancing Script", cursive;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.tools{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
